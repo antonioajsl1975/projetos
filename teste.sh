@@ -2,7 +2,9 @@
 
 read -p "Digite seu nome: " nome
 echo $nome
-echo
+if [ $nome == 'ANTONIO' ]
+then
+	echo  "digitou ANTONIO"
 echo
 
 
